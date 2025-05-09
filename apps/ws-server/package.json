@@ -1,0 +1,24 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node ./dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@repo/db": "workspace:*",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/ws": "^8.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "ws": "^8.18.1"
+  }
+}

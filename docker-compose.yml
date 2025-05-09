@@ -1,0 +1,40 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: apps/web-app/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_WEB_URL=${NEXT_PUBLIC_WEB_URL}
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+      # - NEXT_PUBLIC_WS_URL=${NEXT_PUBLIC_WS_URL}
+      # - DATABASE_URL=${DATABASE_URL}
+      # - JWT_SECRET=${JWT_SECRET}
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/http-server/Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NEXT_PUBLIC_WEB_URL=${NEXT_PUBLIC_WEB_URL}
+      # - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+      # - NEXT_PUBLIC_WS_URL=${NEXT_PUBLIC_WS_URL}
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
+
+
+  ws:
+    build:
+      context: .
+      dockerfile: apps/ws-server/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      # - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+      # - NEXT_PUBLIC_WS_URL=${NEXT_PUBLIC_WS_URL}
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
+
