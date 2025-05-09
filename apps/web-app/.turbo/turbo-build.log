@@ -1,0 +1,27 @@
+[?25l[2J[m[2;1H> web-app@0.1.0 build C:\Users\ARA_bros\Documents\{{ DOCUMENTS }}\Aman Rajput\Work\Programming\PROJECTS\drawproject\apps\web-app
+> next build[5;1H]0;C:\WINDOWS\system32\cmd.exe[?25h[?25l   [38;2;173;127;168m[1m▲ Next.js 15.2.4[m
+   - Environments: .env[8;1H[?25h [37m[1m [m Creating an optimized production build ...
+ [32m[1m✓[m Compiled successfully
+ [37m[1m [m Linting and checking validity of types  [36m.[?25l[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [37m[1m [m Linting and checking validity of types  [36m...[K[137C[m [37m[1m [m Linting and checking validity of types  [36m.[K[139C[m [37m[1m [m Linting and checking validity of types  [36m..[K[138C[m [32m[1m✓[m Linting and checking validity of types[K
+ [37m[1m [m Collecting page data  [36m.[m [37m[1m [m Collecting page data  [36m..[K[156C[m [37m[1m [m Collecting page data  [36m...[K[155C[m [37m[1m [m Collecting page data  [36m.[K[157C[m [37m[1m [m Collecting page data  [36m..[K[156C[m [37m[1m [m Collecting page data  [36m...[K[155C[m [32m[1m✓[m Collecting page data[K
+[?25h [37m[1m [m Generating static pages (0/9)  [36m[    ][?25l[m [37m[1m [m Generating static pages (0/9)  [36m[=   ][K[143C[m [37m[1m [m Generating static pages (0/9)  [36m[==  ][K[143C[m [37m[1m [m Generating static pages (0/9)  [36m[=== ][K[143C[m [37m[1m [m Generating static pages (0/9)  [36m[ ===][K[143C[m [32m[1m✓[m Generating static pages (9/9)[K[?25h
+ [37m[1m [m Finalizing page optimization  [36m. [37m[1m [m Collecting build traces  [36m.[?25l[m [32m[1m✓[m Collecting build traces[K[?25h
+ [32m[1m✓[m Finalizing page optimization[K
+
+[4mRoute (app)[24m[33X[4m[33CSize[24m  [4mFirst Load JS[24m    
+┌ ○ /                                     3.1 kB[37m[1m[9C104 kB[m[K
+├ ○ /_not-found                            975 B[37m[1m[9C102 kB[m[K
+├ ƒ /canvas/[id]                         2.15 kB[37m[1m[9C123 kB[m[K
+├ ○ /createroom                            687 B[37m[1m[9C122 kB[m[K
+├ ○ /joinroom                              686 B[37m[1m[9C122 kB[m[K
+├ ○ /signin                                688 B[37m[1m[9C122 kB[m[K
+└ ○ /signup                                688 B[37m[1m[9C122 kB[m[K
++ First Load JS shared by all[37m[1m[13C101 kB[m[K
+  ├ chunks/315-0ab96c30cf61b9c1.js       45.7 kB
+  ├ chunks/87c73c54-d949842d9c8d8e83.js  53.2 kB
+  └ other shared chunks (total)          1.98 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
